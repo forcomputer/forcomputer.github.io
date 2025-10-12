@@ -1,0 +1,113 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Numbers</title>
+
+    <!-- Load external CSS styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="images/512x512.png">
+</head>
+
+<body>
+    <h1>Welcome to The Numbers!</h1>
+
+    <!-- Operator and Level Selection Menu -->
+    <div>
+        <div>
+            Settings:
+        </div>
+        <div>
+            <label for="operatorSelect">Operator:</label>
+            <select id="operatorSelect" onchange="onOperatorChange()">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">×</option>
+                <option value="/">÷</option>
+            </select>
+        </div>
+        <div>
+            <label for="levelSelect">Level:</label>
+            <select id="levelSelect" onchange="onLevelChange()">
+                <option value="1">Easy 10</option>
+                <option value="2">Medium 12</option>
+                <option value="3">Hard 100</option>
+            </select>
+        </div>
+        <div>
+            <label for="genderSelect">Gender:</label>
+            <select id="genderSelect" onchange="onGenderChange()">
+                <option value="boy">Boy</option>
+                <option value="girl">Girl</option>
+            </select>
+        </div>
+        <div>
+            <button onclick="startGame()">Start Game</button>
+        </div>
+    </div>
+
+    <br>
+
+    <p class="instruction-text">This is a fun and educational math game made to help kids practice their arithmetic
+        skills.</p>
+    <div class="instruction-text">
+        <p class="instruction-title">Choose your preferences:</p>
+        <ul>
+            <li>Pick an operator:
+                <ul>
+                    <li>Addition (+)</li>
+                    <li>Subtraction (-)</li>
+                    <li>Multiplication (×)</li>
+                    <li>Division (÷)</li>
+                </ul>
+            </li>
+            <li>Choose a difficulty level:
+                <ul>
+                    <li>Easy (up to 10)</li>
+                    <li>Medium (up to 12)</li>
+                    <li>Hard (up to 100)</li>
+                </ul>
+                (Visual help is available for numbers under 12.)
+            </li>
+            <li>Choose a sticker style:
+                <ul>
+                    <li>Boy</li>
+                    <li>Girl</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="instruction-text">
+        <p class="instruction-title">How to play:</p>
+        <ul>
+            <li>You earn 1 star for each correct answer.</li>
+            <li>The maximum number of stars you can get is 8.</li>
+            <li>On your 9th correct answer, you win a sticker!</li>
+            <li>You can collect up to 20 stickers.</li>
+            <li>A wrong answer will take away 1 star, if you have any.</li>
+        </ul>
+    </div>
+
+    <br>
+
+    <div>
+        <p class="footer">© 2019 <img src="images/logo2_con_borde.png" alt="Logo" class="imgSticker"></p>
+        <p class="footer">Image by William Liu from ArtStation. Sound by floraphonic from Pixabay.</p>
+    </div>
+
+    <!-- Load external JavaScript -->
+    <script src="scripts.js"></script>
+    <script src="instruction.js"></script>
+    <script>
+        if (typeof navigator.serviceWorker !== 'undefined') {
+            navigator.serviceWorker.register('service-worker.js')
+        }
+    </script>
+</body>
+
+</html>

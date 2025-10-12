@@ -1,0 +1,28 @@
+🔒 Privacy Policy
+Effective Date: 07/30/2025
+
+Thank you for using The Numbers PWA forcomputer. Your privacy is important to us. This Privacy Policy outlines how we handle information in connection with our application.
+
+📌 Information We Do Not Collect
+We designed The Numbers PWA forcomputer to respect your privacy. We do not collect, store, share, or process any personal information from users, including but not limited to:
+Name
+Email address
+Location data
+Contact lists
+Device identifiers
+We also do not use cookies, analytics tools, or tracking technologies.
+
+📱 Device Permissions
+Our app may request access to certain device features (storage) solely to enable specific functionality. We do not access or transmit any data from these features externally.
+
+🔄 Usage Data
+We may collect anonymous usage statistics (such as app version or feature usage) strictly for app improvement purposes. This data is non-identifiable and cannot be linked back to any user.
+
+🛡️ Data Security
+As we do not collect personal data, there is no risk of unauthorized access to your personal information through our app.
+
+⚖️ Changes to This Policy
+This policy may be updated occasionally to reflect changes in our practices or legal requirements. We recommend reviewing this page periodically for any updates.
+
+📬 Contact Us
+If you have any questions about this Privacy Policy, feel free to contact us at: ap0calip@hotmail.com

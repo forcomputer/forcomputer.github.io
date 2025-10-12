@@ -1,0 +1,106 @@
+/* style used by instruction.html and game.html */
+
+* {
+  margin: 0;
+  text-align: center;
+  font-size: 8vw;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 12vw;
+  font-family: "Monotype Corsiva", cursive;
+  text-shadow: 1vw 1vw .1vw #72dc56;
+}
+
+.instruction-title {
+  font-size: 5vw;
+  margin: 2vw;
+  text-align: justify;
+  font-weight: bold;
+  margin-top: 4vw;
+}
+
+.instruction-text,
+li {
+  font-size: 5vw;
+  margin: 2vw;
+  text-align: justify;
+  font-weight: normal;
+}
+
+.footer {
+  font-size: 5vw;
+  margin: 2vw;
+  text-align: center;
+  font-family: "Monotype Corsiva", cursive;
+}
+
+label,
+select,
+option {
+  margin: 2vw;
+}
+
+img {
+  width: 10vw;
+  height: 15vw;
+}
+
+.imgStar {
+  width: 10vw;
+  height: auto;
+}
+
+.imgSticker {
+  width: 20vw;
+  height: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: min-content auto min-content;
+  background-color: rgb(235, 145, 10);
+  padding: 0.5vw;
+}
+
+.numbers-container,
+.additional-container {
+  display: grid;
+  padding: 0.5vw;
+}
+
+.numbers-container>div {
+  background-color: yellow;
+  border: 0.2vw solid white;
+  margin: 0.5vw;
+}
+
+.enter {
+  background-color: green;
+  border: 0.2vw solid white;
+  margin: 0.5vw;
+}
+
+.clear {
+  background-color: yellow;
+  border: 0.2vw solid white;
+  margin: 0.5vw;
+}
+
+.additional-container {
+  grid-template-rows: 8vw 18vw;
+  padding: 4vwx;
+}
+
+.numbers {
+  background-color: rgb(36, 196, 218);
+  border: none;
+  margin: 0.5vw;
+}
+
+.imgNumbers {
+  background-color: rgb(36, 196, 218);
+  border: 0.2vw solid white;
+  margin: 0.5vw;
+}

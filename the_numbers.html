@@ -1,0 +1,113 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Numbers</title>
+
+    <!-- Load external CSS styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="images/512x512.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="images/left.jpg" alt="Left Image" class="imgBorderLeft">
+        </div>
+        <div class="center-container">
+            <div class="numbers-container">
+                <div id="1" onclick="addNumber('1')" onpointerover="pointerOver('1')"
+                    onpointerleave="pointerLeave('1')">1</div>
+                <div id="2" onclick="addNumber('2')" onpointerover="pointerOver('2')"
+                    onpointerleave="pointerLeave('2')">2</div>
+                <div id="3" onclick="addNumber('3')" onpointerover="pointerOver('3')"
+                    onpointerleave="pointerLeave('3')">3</div>
+                <div id="4" onclick="addNumber('4')" onpointerover="pointerOver('4')"
+                    onpointerleave="pointerLeave('4')">4</div>
+                <div id="5" onclick="addNumber('5')" onpointerover="pointerOver('5')"
+                    onpointerleave="pointerLeave('5')">5</div>
+                <div id="6" onclick="addNumber('6')" onpointerover="pointerOver('6')"
+                    onpointerleave="pointerLeave('6')">6</div>
+                <div id="7" onclick="addNumber('7')" onpointerover="pointerOver('7')"
+                    onpointerleave="pointerLeave('7')">7</div>
+                <div id="8" onclick="addNumber('8')" onpointerover="pointerOver('8')"
+                    onpointerleave="pointerLeave('8')">8</div>
+                <div id="9" onclick="addNumber('9')" onpointerover="pointerOver('9')"
+                    onpointerleave="pointerLeave('9')">9</div>
+                <div id="0" onclick="addNumber('0')" onpointerover="pointerOver('0')"
+                    onpointerleave="pointerLeave('0')">0</div>
+            </div>
+            <div class="additional-container">
+                <!-- First row -->
+                <div class="numbers">
+                    <p id="firstNumber"></p>
+                </div>
+                <div>
+                    <p id="operator1"></p>
+                </div>
+                <div class="numbers">
+                    <p id="secondNumber"></p>
+                </div>
+                <div>
+                    <p>=</p>
+                </div>
+                <div class="numbers">
+                    <p id="result" class="result"></p>
+                </div>
+                <div id="clear" class="clear" onclick="clearResult()" onpointerover="pointerOver('clear')"
+                    onpointerleave="pointerLeave('clear')">
+                    <p>Clear</p>
+                </div>
+                <!-- Second row -->
+                <div id="imgFirstNumberDiv" class="imgNumbers" onclick="imgClick('imgFirstNumber')"
+                    onpointerover="pointerOver('imgFirstNumberDiv')" onpointerleave="pointerLeave('imgFirstNumberDiv')">
+                    <img alt="First Number Image" id="imgFirstNumber" src=""></div>
+                <div>
+                    <p id="operator2"></p>
+                </div>
+                <div id="imgSecondNumberDiv" class="imgNumbers" onclick="imgClick('imgSecondNumber')"
+                    onpointerover="pointerOver('imgSecondNumberDiv')"
+                    onpointerleave="pointerLeave('imgSecondNumberDiv')"><img alt="Second Number Image"
+                        id="imgSecondNumber" src=""></div>
+                <div>
+                    <p>=</p>
+                </div>
+                <div id="imgResultNumberDiv" class="imgNumbers" onclick="imgClick('imgResultNumber')"
+                    onpointerover="pointerOver('imgResultNumberDiv')"
+                    onpointerleave="pointerLeave('imgResultNumberDiv')"><img alt="Result Number Image"
+                        id="imgResultNumber" src=""></div>
+                <div id="enter" class="enter" onclick="checkResult()" onpointerover="pointerOver('enter')"
+                    onpointerleave="pointerLeave('enter')">
+                    <p>Enter</p>
+                </div>
+            </div>
+            <div id="starContainer" class="star-container"></div>
+        </div>
+        <div class="image-container">
+            <img src="images/right.jpg" alt="Right Image" class="imgBorderRight">
+        </div>
+    </div>
+
+    <div id="stickerContainer" class="sticker-container"></div>
+
+    <div class="footer">
+        <p>© 2019 <img src="images/logo2_con_borde.png" alt="Logo" class="imgSticker"></p>
+        <!-- <button onclick="resetCookies()">Click here to reset.</button> -->
+         <button onclick="window.location.href='./instruction.html'">Click here to reset.</button>
+    </div>
+
+    <!-- Load external JavaScript -->
+    <script src="scripts.js"></script>
+    <script src="the_numbers.js"></script>
+    <script>
+        if (typeof navigator.serviceWorker !== 'undefined') {
+            navigator.serviceWorker.register('service-worker.js')
+        }
+    </script>
+</body>
+
+</html>
