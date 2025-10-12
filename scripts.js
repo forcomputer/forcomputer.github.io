@@ -96,23 +96,65 @@ function handleResize() {
     else if (currentPage === 'the_numbers.html') {
         const container = document.querySelector('.numbers-container');
         const additionalContainer = document.querySelector('.additional-container');
+        const part1Container = document.querySelector('.part1-container');
+        const part2Container = document.querySelector('.part2-container');
         const imageBorderLeft = document.querySelector('.imgBorderLeft');
         const imageBorderRight = document.querySelector('.imgBorderRight');
-        additionalContainer.style.gridTemplateColumns = 'auto auto auto auto auto auto';
-        additionalContainer.style.gridTemplateRows = '9vw 17vw';
         imageBorderLeft.style.height = 'auto';
         imageBorderRight.style.height = 'auto';
 
         if (window.innerHeight > window.innerWidth) {
             //alert('Portrait');
             container.style.gridTemplateColumns = 'auto auto auto auto auto';
+
+            additionalContainer.style.gridTemplateColumns = 'auto';
+            additionalContainer.style.gridTemplateRows = 'auto auto';
+
+            part1Container.style.gridTemplateColumns = 'auto auto auto';
+            part1Container.style.gridTemplateRows = 'auto auto';
+
+            part2Container.style.gridTemplateColumns = 'auto auto auto';
+            part2Container.style.gridTemplateRows = 'auto auto';
+
             imageBorderLeft.style.width = '0vw';
             imageBorderRight.style.width = '0vw';
+
+            document.querySelectorAll('*').forEach(function (el) {
+                el.style.fontSize = '12vw';
+            });
+
+            document.querySelectorAll('.imageNumbers').forEach(function (el) {
+                el.style.width = '20vw';
+                el.style.height = '30vw';
+            });
         } else {
             //alert('Landscape');
+            // container.style.gridTemplateColumns = 'auto auto auto auto auto auto auto auto auto auto';
+            // additionalContainer.style.gridTemplateColumns = 'auto auto auto auto auto auto';
+            // additionalContainer.style.gridTemplateRows = '9vw 17vw';
+
             container.style.gridTemplateColumns = 'auto auto auto auto auto auto auto auto auto auto';
+
+            additionalContainer.style.gridTemplateColumns = 'auto auto';
+            additionalContainer.style.gridTemplateRows = 'auto';
+
+            part1Container.style.gridTemplateColumns = 'auto auto auto';
+            part1Container.style.gridTemplateRows = '9vw 17vw';
+
+            part2Container.style.gridTemplateColumns = 'auto auto auto';
+            part2Container.style.gridTemplateRows = '9vw 17vw';
+
             imageBorderLeft.style.width = '7vw';
             imageBorderRight.style.width = '7vw';
+
+            document.querySelectorAll('*').forEach(function (el) {
+                el.style.fontSize = '8vw';
+            });
+
+            document.querySelectorAll('.imageNumbers').forEach(function (el) {
+                el.style.width = '10vw';
+                el.style.height = '15vw';
+            });
         }
     }
 }
@@ -392,7 +434,7 @@ window.checkResult = function () {
         alert('Please enter your answer first!');
         return; // Exit the function if no answer is provided
     }
-    
+
     // Calculate the correct answer
     let correctResult = eval(`${window.firstNumber} ${window.operator} ${window.secondNumber}`);
 

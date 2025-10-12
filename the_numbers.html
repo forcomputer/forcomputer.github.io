@@ -42,47 +42,59 @@
                     onpointerleave="pointerLeave('0')">0</div>
             </div>
             <div class="additional-container">
-                <!-- First row -->
-                <div class="numbers">
-                    <p id="firstNumber"></p>
+                <div class="part1-container">
+                    <!-- First row -->
+                    <div class="numbers">
+                        <p id="firstNumber"></p>
+                    </div>
+                    <div>
+                        <p id="operator1"></p>
+                    </div>
+                    <div class="numbers">
+                        <p id="secondNumber"></p>
+                    </div>
+
+                    <!-- Second row -->
+                    <div id="imgFirstNumberDiv" class="imgNumbers" onclick="imgClick('imgFirstNumber')"
+                        onpointerover="pointerOver('imgFirstNumberDiv')"
+                        onpointerleave="pointerLeave('imgFirstNumberDiv')">
+                        <img alt="First Number Image" id="imgFirstNumber" src="" class="imageNumbers">
+                    </div>
+                    <div>
+                        <p id="operator2"></p>
+                    </div>
+                    <div id="imgSecondNumberDiv" class="imgNumbers" onclick="imgClick('imgSecondNumber')"
+                        onpointerover="pointerOver('imgSecondNumberDiv')"
+                        onpointerleave="pointerLeave('imgSecondNumberDiv')">
+                        <img alt="Second Number Image" id="imgSecondNumber" src="" class="imageNumbers">
+                    </div>
                 </div>
-                <div>
-                    <p id="operator1"></p>
-                </div>
-                <div class="numbers">
-                    <p id="secondNumber"></p>
-                </div>
-                <div>
-                    <p>=</p>
-                </div>
-                <div class="numbers">
-                    <p id="result" class="result"></p>
-                </div>
-                <div id="clear" class="clear" onclick="clearResult()" onpointerover="pointerOver('clear')"
-                    onpointerleave="pointerLeave('clear')">
-                    <p>Clear</p>
-                </div>
-                <!-- Second row -->
-                <div id="imgFirstNumberDiv" class="imgNumbers" onclick="imgClick('imgFirstNumber')"
-                    onpointerover="pointerOver('imgFirstNumberDiv')" onpointerleave="pointerLeave('imgFirstNumberDiv')">
-                    <img alt="First Number Image" id="imgFirstNumber" src=""></div>
-                <div>
-                    <p id="operator2"></p>
-                </div>
-                <div id="imgSecondNumberDiv" class="imgNumbers" onclick="imgClick('imgSecondNumber')"
-                    onpointerover="pointerOver('imgSecondNumberDiv')"
-                    onpointerleave="pointerLeave('imgSecondNumberDiv')"><img alt="Second Number Image"
-                        id="imgSecondNumber" src=""></div>
-                <div>
-                    <p>=</p>
-                </div>
-                <div id="imgResultNumberDiv" class="imgNumbers" onclick="imgClick('imgResultNumber')"
-                    onpointerover="pointerOver('imgResultNumberDiv')"
-                    onpointerleave="pointerLeave('imgResultNumberDiv')"><img alt="Result Number Image"
-                        id="imgResultNumber" src=""></div>
-                <div id="enter" class="enter" onclick="checkResult()" onpointerover="pointerOver('enter')"
-                    onpointerleave="pointerLeave('enter')">
-                    <p>Enter</p>
+                <div class="part2-container">
+                    <!-- First row -->
+                    <div>
+                        <p>=</p>
+                    </div>
+                    <div class="numbers">
+                        <p id="result" class="result"></p>
+                    </div>
+                    <div id="clear" class="clear" onclick="clearResult()" onpointerover="pointerOver('clear')"
+                        onpointerleave="pointerLeave('clear')">
+                        <p>Clear</p>
+                    </div>
+
+                    <!-- Second row -->
+                    <div>
+                        <p>=</p>
+                    </div>
+                    <div id="imgResultNumberDiv" class="imgNumbers" onclick="imgClick('imgResultNumber')"
+                        onpointerover="pointerOver('imgResultNumberDiv')"
+                        onpointerleave="pointerLeave('imgResultNumberDiv')">
+                        <img alt="Result Number Image" id="imgResultNumber" src="" class="imageNumbers">
+                    </div>
+                    <div id="enter" class="enter" onclick="checkResult()" onpointerover="pointerOver('enter')"
+                        onpointerleave="pointerLeave('enter')">
+                        <p>Enter</p>
+                    </div>
                 </div>
             </div>
             <div id="starContainer" class="star-container"></div>
@@ -97,7 +109,7 @@
     <div class="footer">
         <p>© 2019 <img src="images/logo2_con_borde.png" alt="Logo" class="imgSticker"></p>
         <!-- <button onclick="resetCookies()">Click here to reset.</button> -->
-         <button onclick="window.location.href='./instruction.html'">Click here to reset.</button>
+        <button onclick="window.location.href='./instruction.html'">Click here to reset.</button>
     </div>
 
     <!-- Load external JavaScript -->

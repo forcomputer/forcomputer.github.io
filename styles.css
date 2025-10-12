@@ -65,7 +65,9 @@ img {
 }
 
 .numbers-container,
-.additional-container {
+.additional-container,
+.part1-container,
+.part2-container  {
   display: grid;
   padding: 0.5vw;
 }
