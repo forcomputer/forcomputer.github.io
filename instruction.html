@@ -1,105 +1,116 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Numbers</title>
-
-    <!-- Load external CSS styles -->
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Welcome to The Numbers!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="manifest" href="manifest.json">
-    <link rel="icon" type="image/png" sizes="192x192" href="images/192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="images/512x512.png">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#4CAF50",
+                        "background-light": "#F7F9FC",
+                        "background-dark": "#1A202C",
+                    },
+                    fontFamily: {
+                        display: ["Poppins", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.5rem",
+                    },
+                },
+            },
+        };
+    </script>
+    <style>
+        .text-shadow-custom {
+            text-shadow: 2px 2px 0px #C8E6C9, 4px 4px 0px #A5D6A7;
+        }
+
+        .dark .text-shadow-custom {
+            text-shadow: 2px 2px 0px #2E7D32, 4px 4px 0px #1B5E20;
+        }
+    </style>
 </head>
 
-<body>
-    <h1>Welcome to The Numbers!</h1>
-
-    <!-- Operator and Level Selection Menu -->
-    <div>
-        <div>
-            Settings:
-        </div>
-        <div>
-            <label for="operatorSelect">Operator:</label>
-            <select id="operatorSelect" onchange="onOperatorChange()">
-                <option value="+">+</option>
-                <option value="-">-</option>
-                <option value="*">×</option>
-                <option value="/">÷</option>
-            </select>
-        </div>
-        <div>
-            <label for="levelSelect">Level:</label>
-            <select id="levelSelect" onchange="onLevelChange()">
-                <option value="1">Easy 10</option>
-                <option value="2">Medium 12</option>
-                <option value="3">Hard 100</option>
-            </select>
-        </div>
-        <div>
-            <label for="genderSelect">Gender:</label>
-            <select id="genderSelect" onchange="onGenderChange()">
-                <option value="boy">Boy</option>
-                <option value="girl">Girl</option>
-            </select>
-        </div>
-        <div>
-            <button onclick="startGame()">Start Game</button>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-700 dark:text-slate-300 antialiased">
+    <div class="min-h-screen flex items-center justify-center p-4">
+        <div class="max-w-2xl w-full space-y-8">
+            <header class="text-center">
+                <h1
+                    class="text-5xl md:text-6xl font-bold text-slate-800 dark:text-white text-shadow-custom tracking-tight">
+                    Welcome to The Numbers!</h1>
+            </header>
+            <main class="space-y-10">
+                <section class="bg-white dark:bg-slate-800 p-6 md:p-8 rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white text-center">Game Settings</h2>
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <div>
+                                <label class="block text-sm font-semibold text-slate-600 dark:text-slate-400 mb-2"
+                                    for="operatorSelect">Operator</label>
+                                <select
+                                    class="w-full bg-slate-50 dark:bg-slate-700 border-slate-300 dark:border-slate-600 rounded-md shadow-sm focus:ring-primary focus:border-primary"
+                                    id="operatorSelect" name="operator" onchange="onOperatorChange()">
+                                    <option value="+">Addition (+)</option>
+                                    <option value="-">Subtraction (-)</option>
+                                    <option value="*">Multiplication (×)</option>
+                                    <option value="/">Division (÷)</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-slate-600 dark:text-slate-400 mb-2"
+                                    for="levelSelect">Level</label>
+                                <select
+                                    class="w-full bg-slate-50 dark:bg-slate-700 border-slate-300 dark:border-slate-600 rounded-md shadow-sm focus:ring-primary focus:border-primary"
+                                    id="levelSelect" name="level" onchange="onLevelChange()">
+                                    <option value="1">Easy (up to 10)</option>
+                                    <option value="2">Medium (up to 12)</option>
+                                    <option value="3">Hard (up to 100)</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-slate-600 dark:text-slate-400 mb-2"
+                                    for="genderSelect">Sticker Style</label>
+                                <select
+                                    class="w-full bg-slate-50 dark:bg-slate-700 border-slate-300 dark:border-slate-600 rounded-md shadow-sm focus:ring-primary focus:border-primary"
+                                    id="genderSelect" name="sticker" onchange="onGenderChange()">
+                                    <option value="boy">Boy</option>
+                                    <option value="girl">Girl</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button
+                            class="w-full bg-primary text-white font-bold py-3 px-4 rounded-lg shadow-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary dark:focus:ring-offset-slate-800 transition-transform transform hover:scale-105 text-lg"
+                            onclick="startGame()" type="submit">
+                            Start Game
+                        </button>
+                    </form>
+                </section>
+                <section class="bg-white dark:bg-slate-800 p-6 md:p-8 rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-bold mb-4 text-slate-900 dark:text-white">How to play</h2>
+                    <ul class="space-y-3 list-disc list-inside text-slate-600 dark:text-slate-400">
+                        <li>You earn 1 star for each correct answer.</li>
+                        <li>The maximum number of stars you can get is 8.</li>
+                        <li>On your 9th correct answer, you win a sticker!</li>
+                        <li>You can collect up to 20 stickers.</li>
+                        <li>A wrong answer will take away 1 star, if you have any.</li>
+                    </ul>
+                </section>
+            </main>
+            <footer class="text-center text-xs text-slate-500 dark:text-slate-400">
+                <p>© 2019 <img src="images/logo2_con_borde.png" alt="Logo" class="imgSticker"> All rights reserved.</p>
+                <p>Original art by William Liu from ArtStation. Sound by floraphonic from Pixabay.</p>
+            </footer>
         </div>
     </div>
-
-    <br>
-
-    <p class="instruction-text">This is a fun and educational math game made to help kids practice their arithmetic
-        skills.</p>
-    <div class="instruction-text">
-        <p class="instruction-title">Choose your preferences:</p>
-        <ul>
-            <li>Pick an operator:
-                <ul>
-                    <li>Addition (+)</li>
-                    <li>Subtraction (-)</li>
-                    <li>Multiplication (×)</li>
-                    <li>Division (÷)</li>
-                </ul>
-            </li>
-            <li>Choose a difficulty level:
-                <ul>
-                    <li>Easy (up to 10)</li>
-                    <li>Medium (up to 12)</li>
-                    <li>Hard (up to 100)</li>
-                </ul>
-                (Visual help is available for numbers under 12.)
-            </li>
-            <li>Choose a sticker style:
-                <ul>
-                    <li>Boy</li>
-                    <li>Girl</li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-
-    <div class="instruction-text">
-        <p class="instruction-title">How to play:</p>
-        <ul>
-            <li>You earn 1 star for each correct answer.</li>
-            <li>The maximum number of stars you can get is 8.</li>
-            <li>On your 9th correct answer, you win a sticker!</li>
-            <li>You can collect up to 20 stickers.</li>
-            <li>A wrong answer will take away 1 star, if you have any.</li>
-        </ul>
-    </div>
-
-    <br>
-
-    <div>
-        <p class="footer">© 2019 <img src="images/logo2_con_borde.png" alt="Logo" class="imgSticker"></p>
-        <p class="footer">Image by William Liu from ArtStation. Sound by floraphonic from Pixabay.</p>
-    </div>
-
     <!-- Load external JavaScript -->
     <script src="scripts.js"></script>
     <script src="instruction.js"></script>
