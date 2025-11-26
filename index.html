@@ -1,40 +1,43 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Developer Portfolio</title>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
-<script>
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            colors: {
-              // Muted pastel for background/accents
-              "background-light": "#f0f9f1", // A very light, soft green (mint cream)
-              "background-dark": "#1d2b2f", // Dark muted teal for dark mode background
-              "text-light": "#36454F", // Charcoal grey for primary text
-              "text-dark": "#e0e7e9", // Light grey-blue for primary text in dark mode
-              "accent-light": "#dcfce7", // Very light green for subtle accents
-              "accent-dark": "#2d4447", // Darker muted teal for subtle accents in dark mode
-              // Jewel tone for links
-              "link-primary-light": "#059669", // Deep emerald green
-              "link-primary-dark": "#34d399", // Lighter emerald for visibility on dark background
-            },
-            fontFamily: {
-              sans: ["Inter", "sans-serif"], // Inter for all body text
-            },
-            borderRadius: {
-              DEFAULT: "0.5rem", // 8px
-            },
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            // Muted pastel for background/accents
+            "background-light": "#f0f9f1", // A very light, soft green (mint cream)
+            "background-dark": "#1d2b2f", // Dark muted teal for dark mode background
+            "text-light": "#36454F", // Charcoal grey for primary text
+            "text-dark": "#e0e7e9", // Light grey-blue for primary text in dark mode
+            "accent-light": "#dcfce7", // Very light green for subtle accents
+            "accent-dark": "#2d4447", // Darker muted teal for subtle accents in dark mode
+            // Jewel tone for links
+            "link-primary-light": "#059669", // Deep emerald green
+            "link-primary-dark": "#34d399", // Lighter emerald for visibility on dark background
+          },
+          fontFamily: {
+            sans: ["Inter", "sans-serif"], // Inter for all body text
+          },
+          borderRadius: {
+            DEFAULT: "0.5rem", // 8px
           },
         },
-      };
-    </script>
-<style type="text/tailwindcss">body {
+      },
+    };
+  </script>
+  <style type="text/tailwindcss">body {
           font-family: 'Inter', sans-serif;
       }.group:hover .group-hover\:text-link-primary-light {
           color: var(--tw-colors-link-primary-light);
@@ -44,74 +47,87 @@
       }
     </style>
 </head>
-<body class="font-sans bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark antialiased">
-<div class="container mx-auto max-w-4xl px-4 py-16 sm:py-24">
-<header class="flex flex-col items-center text-center mb-16">
-<h1 class="text-4xl sm:text-5xl font-bold text-slate-900 dark:text-white tracking-tight">
-                forcomputer
-            </h1>
-<p class="mt-4 text-lg text-text-light dark:text-text-dark">
-                Software Developer
-            </p>
-</header>
-<main class="space-y-16">
-<section>
-<h2 class="text-2xl font-bold text-slate-800 dark:text-slate-200 mb-6 border-b border-accent-light dark:border-accent-dark pb-3">
-                    Profile
-                </h2>
-<div class="flex space-x-6">
-<a class="text-lg font-semibold text-link-primary-light dark:text-link-primary-dark hover:underline" href="#">LinkedIn</a>
-<a class="text-lg font-semibold text-link-primary-light dark:text-link-primary-dark hover:underline" href="#">Github</a>
-</div>
-</section>
-<section>
-<h2 class="text-2xl font-bold text-slate-800 dark:text-slate-200 mb-8 border-b border-accent-light dark:border-accent-dark pb-3">
-                    Projects
-                </h2>
-<div class="space-y-12">
-<div class="group">
-<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">
-<a class="text-link-primary-light dark:text-link-primary-dark font-semibold group-hover:text-link-primary-light dark:group-hover:text-link-primary-dark transition-colors duration-200" href="#">The Numbers (Microsoft Store)</a>
-</h3>
-<div class="grid sm:grid-cols-3 gap-x-8 gap-y-4 text-text-light dark:text-text-dark text-sm">
-<div><span class="font-semibold text-text-light dark:text-text-dark">Type:</span> WinForms</div>
-<div><span class="font-semibold text-text-light dark:text-text-dark">IDE:</span> Visual Studio 2019 and 2022</div>
-<div><span class="font-semibold text-text-light dark:text-text-dark">Language:</span> Visual Basic .NET</div>
-</div>
-</div>
-<div class="group">
-<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">
-<a class="text-link-primary-light dark:text-link-primary-dark font-semibold group-hover:text-link-primary-light dark:group-hover:text-link-primary-dark transition-colors duration-200" href="#">The Numbers (Webpage)</a>
-</h3>
-<div class="grid sm:grid-cols-3 gap-x-8 gap-y-4 text-text-light dark:text-text-dark text-sm">
-<div><span class="font-semibold text-text-light dark:text-text-dark">Type:</span> PWA</div>
-<div><span class="font-semibold text-text-light dark:text-text-dark">IDE:</span> Visual Studio Code</div>
-<div><span class="font-semibold text-text-light dark:text-text-dark">Language:</span> HTML, CSS, and JavaScript</div>
-</div>
-</div>
-<div class="group">
-<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">
-<a class="text-link-primary-light dark:text-link-primary-dark font-semibold group-hover:text-link-primary-light dark:group-hover:text-link-primary-dark transition-colors duration-200" href="#">The Numbers (PWA - Microsoft Store)</a>
-</h3>
-<div class="grid sm:grid-cols-3 gap-x-8 gap-y-4 text-text-light dark:text-text-dark text-sm">
-<div><span class="font-semibold text-text-light dark:text-text-dark">Type:</span> PWA</div>
-<div><span class="font-semibold text-text-light dark:text-text-dark">IDE:</span> Visual Studio Code</div>
-<div><span class="font-semibold text-text-light dark:text-text-dark">Language:</span> HTML, CSS, and JavaScript</div>
-</div>
-</div>
-<div class="group">
-<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">
-<a class="text-link-primary-light dark:text-link-primary-dark font-semibold group-hover:text-link-primary-light dark:group-hover:text-link-primary-dark transition-colors duration-200" href="#">The Numbers (PWA - Google Play)</a>
-</h3>
-<div class="grid sm:grid-cols-3 gap-x-8 gap-y-4 text-text-light dark:text-text-dark text-sm">
-<div><span class="font-semibold text-text-light dark:text-text-dark">Type:</span> PWA</div>
-<div><span class="font-semibold text-text-light dark:text-text-dark">IDE:</span> Visual Studio Code</div>
-<div><span class="font-semibold text-text-light dark:text-text-dark">Language:</span> HTML, CSS, and JavaScript</div>
-</div>
-</div>
-</div>
-</section>
-</main>
-</div>
 
-</body></html>
+<body class="font-sans bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark antialiased">
+  <div class="container mx-auto max-w-4xl px-4 py-16 sm:py-24">
+    <header class="flex flex-col items-center text-center mb-16">
+      <img src="images/logo1.png" style="width: 70%; height: auto;">
+    </header>
+    <main class="space-y-16">
+      <section>
+        <h2
+          class="text-2xl font-bold text-slate-800 dark:text-slate-200 mb-6 border-b border-accent-light dark:border-accent-dark pb-3">
+          Profile
+        </h2>
+        <div class="flex space-x-6">
+          <a class="text-lg font-semibold text-link-primary-light dark:text-link-primary-dark hover:underline"
+            href="https://www.linkedin.com/in/wilbert-martinez-rodriguez-ap0calip/">LinkedIn</a>
+          <a class="text-lg font-semibold text-link-primary-light dark:text-link-primary-dark hover:underline"
+            href="https://github.com/ap0calip">Github</a>
+        </div>
+      </section>
+      <section>
+        <h2
+          class="text-2xl font-bold text-slate-800 dark:text-slate-200 mb-8 border-b border-accent-light dark:border-accent-dark pb-3">
+          Projects
+        </h2>
+        <div class="space-y-12">
+          <div class="group">
+            <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">
+              <a class="text-link-primary-light dark:text-link-primary-dark font-semibold group-hover:text-link-primary-light dark:group-hover:text-link-primary-dark transition-colors duration-200"
+                href="https://apps.microsoft.com/detail/9NQZ63LKLDPP">The Numbers forcomputer</a>
+            </h3>
+            <div class="grid sm:grid-cols-3 gap-x-8 gap-y-4 text-text-light dark:text-text-dark text-sm">
+              <div><span class="font-semibold text-text-light dark:text-text-dark">Store:</span> Microsoft Store</div>
+              <div><span class="font-semibold text-text-light dark:text-text-dark">Type:</span> WinForms</div>
+              <div><span class="font-semibold text-text-light dark:text-text-dark">IDE:</span> Visual Studio 2019 and 2022</div>
+              <div><span class="font-semibold text-text-light dark:text-text-dark">Language:</span> Visual Basic .NET
+              </div>
+            </div>
+          </div>
+          <div class="group">
+            <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">
+              <a class="text-link-primary-light dark:text-link-primary-dark font-semibold group-hover:text-link-primary-light dark:group-hover:text-link-primary-dark transition-colors duration-200"
+                href="https://ap0calip.github.io/the_numbers.html">The Numbers</a>
+            </h3>
+            <div class="grid sm:grid-cols-3 gap-x-8 gap-y-4 text-text-light dark:text-text-dark text-sm">
+              <div><span class="font-semibold text-text-light dark:text-text-dark">Type:</span> Webpage and Progressive Web Application</div>
+              <div><span class="font-semibold text-text-light dark:text-text-dark">IDE:</span> Visual Studio Code</div>
+              <div><span class="font-semibold text-text-light dark:text-text-dark">Language:</span> HTML, CSS, and
+                JavaScript</div>
+            </div>
+          </div>
+          <div class="group">
+            <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">
+              <a class="text-link-primary-light dark:text-link-primary-dark font-semibold group-hover:text-link-primary-light dark:group-hover:text-link-primary-dark transition-colors duration-200"
+                href="https://apps.microsoft.com/detail/9NKQCN98TWVJ">The Numbers PWA forcomputer</a>
+            </h3>
+            <div class="grid sm:grid-cols-3 gap-x-8 gap-y-4 text-text-light dark:text-text-dark text-sm">
+              <div><span class="font-semibold text-text-light dark:text-text-dark">Store:</span> Microsoft Store</div>
+              <div><span class="font-semibold text-text-light dark:text-text-dark">Type:</span> Progressive Web Application</div>
+              <div><span class="font-semibold text-text-light dark:text-text-dark">IDE:</span> Visual Studio Code</div>
+              <div><span class="font-semibold text-text-light dark:text-text-dark">Language:</span> HTML, CSS, and
+                JavaScript</div>
+            </div>
+          </div>
+          <div class="group">
+            <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">
+              <a class="text-link-primary-light dark:text-link-primary-dark font-semibold group-hover:text-link-primary-light dark:group-hover:text-link-primary-dark transition-colors duration-200"
+                href="https://play.google.com/store/apps/details?id=io.github.ap0calip.twa">The Numbers PWA forcomputer</a>
+            </h3>
+            <div class="grid sm:grid-cols-3 gap-x-8 gap-y-4 text-text-light dark:text-text-dark text-sm">
+              <div><span class="font-semibold text-text-light dark:text-text-dark">Store:</span> Google Play</div>
+              <div><span class="font-semibold text-text-light dark:text-text-dark">Type:</span> Progressive Web Application</div>
+              <div><span class="font-semibold text-text-light dark:text-text-dark">IDE:</span> Visual Studio Code</div>
+              <div><span class="font-semibold text-text-light dark:text-text-dark">Language:</span> HTML, CSS, and
+                JavaScript</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+</body>
+
+</html>
