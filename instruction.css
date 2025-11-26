@@ -1,0 +1,7 @@
+.text-shadow-custom {
+    text-shadow: 2px 2px 0px #C8E6C9, 4px 4px 0px #A5D6A7;
+}
+
+.dark .text-shadow-custom {
+    text-shadow: 2px 2px 0px #2E7D32, 4px 4px 0px #1B5E20;
+}
