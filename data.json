@@ -2,33 +2,28 @@
   "applications": [
     {
       "id": 1,
-      "title": "TaskFlow Pro",
+      "title": "Libreta de Dominó Boricua",
       "category": "Microsoft",
-      "description": "An interactive Kanban-style project management app with visual workflows, timeline views, and subtask tracking.",
-      "longDescription": "TaskFlow Pro is a comprehensive project management solution designed for remote teams. It combines the visual ease of Kanban boards with power features like interactive Gantt charts, deep work timers, automatic standup summaries, and real-time collaboration. Track your projects from conception to release with full analytics and task state transitions.",
-      "technologies": ["React", "TypeScript", "Tailwind CSS", "Dnd-Kit", "Recharts"],
+      "description": "¡Olvídate del papel! Anota tu dominó de la forma más rápida y boricua.",
+      "longDescription": "Libreta de Dominó Boricua es la aplicación definitiva para contar y registrar partidas de dominó tradicional de forma rápida y sencilla. Diseñada con un estilo moderno inspirado en Puerto Rico, te permite llevar el marcador oficial, gestionar jugadores y guardar el historial completo de tus encuentros para revivir cada victoria con amigos y familiares.",
+      "technologies": ["Google AI Studio"],
       "features": [
-        "Drag-and-drop Kanban boards with custom swimlanes",
-        "Interactive Gantt charts & milestone tracking",
-        "Built-in Pomodoro focus timer with telemetry",
-        "Team workload balancing and capacity views",
-        "Detailed performance analytics and completion velocity",
-        "Custom fields, tags, and priority weights",
-        "Subtask nesting and checklist dependency trees",
-        "Automatic markdown release notes generation"
+        "Anotación de Puntos en Tiempo Real: Lleva un control preciso de cada mano con un marcador dinámico y fácil de usar durante el juego.",
+        "Historial de Partidas Optimizado: Muestra un resumen de los últimos 3 encuentros para mantener la pantalla limpia, con la opción de expandir toda la lista mediante un botón interactivo.",
+        "Gestión Local de Jugadores: Crea, edita y administra los nombres de los participantes para personalizar tus partidas al instante.",
+        "Interfaz Temática Boricua: Disfruta de una experiencia visual elegante y fluida con un diseño responsivo basado en los colores tradicionales."
       ],
-      "appUrl": "https://taskflow.example.dev",
-      "githubUrl": "https://github.com/example/taskflow-pro",
-      "releaseDate": "June 12, 2026",
+      "appUrl": "https://ap0calip.github.io/",
+      "githubUrl": "https://github.com/ap0calip",
+      "releaseDate": "Pending",
       "screenshots": [
-        "https://picsum.photos/seed/taskflow-dash/800/500",
-        "https://picsum.photos/seed/taskflow-board/800/500",
-        "https://picsum.photos/seed/taskflow-timeline/800/500",
-        "https://picsum.photos/seed/taskflow-calendar/800/500",
-        "https://picsum.photos/seed/taskflow-analytics/800/500",
-        "https://picsum.photos/seed/taskflow-settings/800/500",
-        "https://picsum.photos/seed/taskflow-members/800/500",
-        "https://picsum.photos/seed/taskflow-chat/800/500"
+        "image/domino/b0.png",
+		"image/domino/b1.jpg",
+		"image/domino/b2.jpg",
+		"image/domino/b3.jpg",
+		"image/domino/b4.jpg",
+		"image/domino/b5.jpg",
+		"image/domino/b6.jpg"
       ]
     },
     {
