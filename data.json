@@ -1,0 +1,190 @@
+{
+  "applications": [
+    {
+      "id": 1,
+      "title": "TaskFlow Pro",
+      "category": "Productivity",
+      "description": "An interactive Kanban-style project management app with visual workflows, timeline views, and subtask tracking.",
+      "longDescription": "TaskFlow Pro is a comprehensive project management solution designed for remote teams. It combines the visual ease of Kanban boards with power features like interactive Gantt charts, deep work timers, automatic standup summaries, and real-time collaboration. Track your projects from conception to release with full analytics and task state transitions.",
+      "technologies": ["React", "TypeScript", "Tailwind CSS", "Dnd-Kit", "Recharts"],
+      "features": [
+        "Drag-and-drop Kanban boards with custom swimlanes",
+        "Interactive Gantt charts & milestone tracking",
+        "Built-in Pomodoro focus timer with telemetry",
+        "Team workload balancing and capacity views",
+        "Detailed performance analytics and completion velocity",
+        "Custom fields, tags, and priority weights",
+        "Subtask nesting and checklist dependency trees",
+        "Automatic markdown release notes generation"
+      ],
+      "appUrl": "https://taskflow.example.dev",
+      "githubUrl": "https://github.com/example/taskflow-pro",
+      "releaseDate": "June 12, 2026",
+      "screenshots": [
+        "https://picsum.photos/seed/taskflow-dash/800/500",
+        "https://picsum.photos/seed/taskflow-board/800/500",
+        "https://picsum.photos/seed/taskflow-timeline/800/500",
+        "https://picsum.photos/seed/taskflow-calendar/800/500",
+        "https://picsum.photos/seed/taskflow-analytics/800/500",
+        "https://picsum.photos/seed/taskflow-settings/800/500",
+        "https://picsum.photos/seed/taskflow-members/800/500",
+        "https://picsum.photos/seed/taskflow-chat/800/500"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Nova Editor",
+      "category": "Developer Tools",
+      "description": "A lightweight web-based Markdown editor featuring real-time preview, folder management, and local backup capabilities.",
+      "longDescription": "Nova Editor is a beautiful, minimalist markdown editor designed for writers and developers. It features side-by-side synchronized rendering, full LaTeX math support, mermaid.js diagram visualization, and offline-first storage. Create nested directory structures directly in your browser and sync with major cloud providers or local files effortlessly.",
+      "technologies": ["React", "TypeScript", "Vite", "Tailwind CSS", "CodeMirror", "Mermaid"],
+      "features": [
+        "Synchronized markdown editor and HTML side-by-side preview",
+        "Mermaid.js diagramming and flowcharts inside markdown",
+        "LaTeX mathematical formula formatting with KaTeX",
+        "Nested folder tree structure with file system drag-and-drop",
+        "Local-first browser auto-save and history rollbacks",
+        "Dark, sepia, and writing-focused focus mode themes",
+        "Word, character, and reading-time counters",
+        "Direct export to PDF, HTML, and Markdown formats"
+      ],
+      "appUrl": "https://nova.example.dev",
+      "githubUrl": "https://github.com/example/nova-editor",
+      "releaseDate": "May 20, 2026",
+      "screenshots": [
+        "https://picsum.photos/seed/nova-main/800/500",
+        "https://picsum.photos/seed/nova-dark/800/500",
+        "https://picsum.photos/seed/nova-preview/800/500",
+        "https://picsum.photos/seed/nova-folders/800/500",
+        "https://picsum.photos/seed/nova-export/800/500",
+        "https://picsum.photos/seed/nova-settings/800/500",
+        "https://picsum.photos/seed/nova-katex/800/500",
+        "https://picsum.photos/seed/nova-mermaid/800/500"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "FitSphere Tracker",
+      "category": "Health & Fitness",
+      "description": "A comprehensive fitness tracking dashboard with workout plan builders, diet tracking, and interactive progress analytics.",
+      "longDescription": "FitSphere is a health companion that simplifies exercise and diet logging. Design custom multi-week routines, search a library of 800+ animated exercises, track macronutrient breakdown, and visualize body measurement trends over time. Features elegant, interactive charts representing energy burned, active minutes, and volume load.",
+      "technologies": ["React", "Tailwind CSS", "Recharts", "Framer Motion", "LocalStorage"],
+      "features": [
+        "Interactive exercise routine planner with drag-reordering",
+        "Macronutrient calorie and water intake calculators",
+        "Volume weight-lifting and cardio logging systems",
+        "Interactive dynamic charts for progress visualization",
+        "Animated exercise instruction guides",
+        "Daily habit streaks and consistency heatmaps",
+        "Sleep quality index correlation and analytics",
+        "Custom PDF workouts export for paper tracking"
+      ],
+      "appUrl": "https://fitsphere.example.dev",
+      "githubUrl": "https://github.com/example/fitsphere",
+      "releaseDate": "April 05, 2026",
+      "screenshots": [
+        "https://picsum.photos/seed/fit-dash/800/500",
+        "https://picsum.photos/seed/fit-workout/800/500",
+        "https://picsum.photos/seed/fit-diet/800/500",
+        "https://picsum.photos/seed/fit-charts/800/500",
+        "https://picsum.photos/seed/fit-calendar/800/500",
+        "https://picsum.photos/seed/fit-profile/800/500",
+        "https://picsum.photos/seed/fit-exercises/800/500",
+        "https://picsum.photos/seed/fit-settings/800/500"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Apex Finance Wallet",
+      "category": "Finance",
+      "description": "An all-in-one crypto and fiat personal finance tracking dashboard with currency conversions, budget trackers, and stock tracking.",
+      "longDescription": "Apex Finance offers a single source of truth for your net worth. It bridges cryptocurrency wallets, bank ledger files, and brokerage stock lists to render clean visual aggregates of asset distribution, monthly spending forecasts, and debt reduction progress. Fully responsive, highly secure, and optimized for rapid offline use.",
+      "technologies": ["React", "TypeScript", "Tailwind CSS", "Recharts", "Lucide Icons"],
+      "features": [
+        "Cryptocurrency and stock portfolio price tickers",
+        "Multi-currency conversion tables with historical tables",
+        "Envelope budgeting system with overspend warnings",
+        "Interactive asset allocation pie charts and trendlines",
+        "Recurring invoice, bill, and dividend payment schedulers",
+        "CVS and bank statement transactional parsers",
+        "Tax estimation reports and bracket helpers",
+        "Secure local-first private encrypted backups"
+      ],
+      "appUrl": "https://apex.example.dev",
+      "githubUrl": "https://github.com/example/apex-finance",
+      "releaseDate": "March 15, 2026",
+      "screenshots": [
+        "https://picsum.photos/seed/apex-main/800/500",
+        "https://picsum.photos/seed/apex-portfolio/800/500",
+        "https://picsum.photos/seed/apex-budgets/800/500",
+        "https://picsum.photos/seed/apex-crypto/800/500",
+        "https://picsum.photos/seed/apex-transactions/800/500",
+        "https://picsum.photos/seed/apex-analytics/800/500",
+        "https://picsum.photos/seed/apex-recurring/800/500",
+        "https://picsum.photos/seed/apex-settings/800/500"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "EcoMap Green Hubs",
+      "category": "Environment",
+      "description": "A community-focused interactive map for identifying and reviewing local ecological hubs, recycling points, and clean energy sites.",
+      "longDescription": "EcoMap leverages crowdsourced reporting to map recycling hubs, composting depots, repair cafés, and electric vehicle charging locations. Users can filter locations by specific materials accepted, leave reviews on facility accessibility, and report new eco-friendly initiatives to build a resilient circular economy locally.",
+      "technologies": ["React", "Tailwind CSS", "Leaflet Maps", "Geocoding API", "Framer Motion"],
+      "features": [
+        "Interactive vector mapping with custom location clustering",
+        "Material-specific filter indices (plastics, batteries, compost)",
+        "Crowdsourced hub registration and moderation dashboards",
+        "Local green event calendars and workshop registrations",
+        "Eco-saving checklists and plastic foot-printing calculators",
+        "Facility photo uploads, review boards, and rating systems",
+        "Clean energy charging availability metrics in real-time",
+        "Bookmark lists for favorite hubs with offline storage"
+      ],
+      "appUrl": "https://ecomap.example.dev",
+      "githubUrl": "https://github.com/example/ecomap",
+      "releaseDate": "February 10, 2026",
+      "screenshots": [
+        "https://picsum.photos/seed/eco-map/800/500",
+        "https://picsum.photos/seed/eco-list/800/500",
+        "https://picsum.photos/seed/eco-details/800/500",
+        "https://picsum.photos/seed/eco-add/800/500",
+        "https://picsum.photos/seed/eco-reviews/800/500",
+        "https://picsum.photos/seed/eco-events/800/500",
+        "https://picsum.photos/seed/eco-saving/800/500",
+        "https://picsum.photos/seed/eco-settings/800/500"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "ByteChat Developer Messenger",
+      "category": "Communication",
+      "description": "An interactive real-time messaging client for developers featuring embedded code editors, live compiler sandboxes, and file snippet trees.",
+      "longDescription": "ByteChat redefines developer communication by embedding code sandboxes directly inside chat bubbles. Collaborate seamlessly with interactive snippet sharing, live code compiler previews for 12 languages, visual whiteboard workspaces, and developer profile cards linked with GitHub, StackOverflow, and LeetCode.",
+      "technologies": ["React", "TypeScript", "Tailwind CSS", "Socket.IO Client", "Monaco Editor"],
+      "features": [
+        "Interactive syntax-highlighted code sharing inside message rooms",
+        "Live executable code compile sandboxes (HTML, JS, Python, CSS)",
+        "Collaborative real-time whiteboards with vector shapes",
+        "Nested code snippet repos and history trees",
+        "GitHub repository importing and markdown doc viewers",
+        "Custom keyboard hotkeys for rapid navigations",
+        "Theme toggler matching main IDE code templates",
+        "Developer status metrics and portfolio integrations"
+      ],
+      "appUrl": "https://bytechat.example.dev",
+      "githubUrl": "https://github.com/example/bytechat",
+      "releaseDate": "January 14, 2026",
+      "screenshots": [
+        "https://picsum.photos/seed/byte-chat/800/500",
+        "https://picsum.photos/seed/byte-code/800/500",
+        "https://picsum.photos/seed/byte-board/800/500",
+        "https://picsum.photos/seed/byte-files/800/500",
+        "https://picsum.photos/seed/byte-users/800/500",
+        "https://picsum.photos/seed/byte-sandbox/800/500",
+        "https://picsum.photos/seed/byte-settings/800/500",
+        "https://picsum.photos/seed/byte-profile/800/500"
+      ]
+    }
+  ]
+}
