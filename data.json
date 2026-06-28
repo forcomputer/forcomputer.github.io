@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "TaskFlow Pro",
-      "category": "Productivity",
+      "category": "Microsoft",
       "description": "An interactive Kanban-style project management app with visual workflows, timeline views, and subtask tracking.",
       "longDescription": "TaskFlow Pro is a comprehensive project management solution designed for remote teams. It combines the visual ease of Kanban boards with power features like interactive Gantt charts, deep work timers, automatic standup summaries, and real-time collaboration. Track your projects from conception to release with full analytics and task state transitions.",
       "technologies": ["React", "TypeScript", "Tailwind CSS", "Dnd-Kit", "Recharts"],
