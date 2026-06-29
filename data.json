@@ -29,17 +29,18 @@
     },
     {
       "id": 2,
-      "title": "MedRem",
+      "title": "MedRed: Medication Reminder",
       "category": "Play Store",
-      "description": "",
-      "longDescription": "",
+      "description": "Medication Reminder - family's medicine schedules",
+      "longDescription": "MedRem is a thoughtful, family-centered medical reminder and medication safety companion. Designed with an ambient, eye-safe slate theme and generous visual breathing room, the application simplifies schedule coordination for individuals, parents, and caregivers alike. Whether managing a single daily multivitamin or coordinating complex prescriptions for multiple family members, MedRem offers a visually organized, stress-free dashboard that keeps health routines on track.",
       "technologies": ["Google AI Studio"],
       "features": [
-        ""
+        "Color-Coded Family Profiles: Create distinct, personalized profiles for everyone in your care. Each profile is assigned a unique, vibrant color code that visually groups and organizes schedules, helping you quickly distinguish whose medications are due at any given moment.",
+		"Detailed Medication History Log: Keep an accurate, organized digital diary of past doses. The dedicated history timeline tracks exact timestamps and actions (such as taken or skipped doses) across all profiles, giving you a reliable record to share during doctor visits."
       ],
       "appUrl": "https://ap0calip.github.io/",
       "githubUrl": "https://github.com/ap0calip",
-      "releaseDate": "",
+      "releaseDate": "Pending",
       "screenshots": [
         "/image/medrem/1024x500.png",
         "/image/medrem/banner_eng.png",
@@ -57,22 +58,18 @@
       "id": 3,
       "title": "The Numbers",
       "category": "Microsoft Store",
-      "description": "",
-      "longDescription": "",
+      "description": "This application is created so that children can practice addition, subtraction, multiplication and division in a more interesting way.",
+      "longDescription": "The Numbers is a minimalist, number-focused educational game created by GitHub user ap0calip. Designed as a creative learning tool, it helps users practice basic math skills through interactive play. With a strong commitment to user privacy, it collects no personal data, making it a safe and focused environment for learners of all ages.",
       "technologies": ["WinForms", "Visual Studio", "Visual Basic .NET"],
       "features": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Practice Addittion in level 10, 12, 20 and 100.",
+		"Practice Subtraction in level 10, 12, 20 and 100.",
+		"Practice Multiplication in level 10 and 12."
+		"Practice Division in level 10 and 12."
       ],
       "appUrl": "https://apps.microsoft.com/detail/9nqz63lkldpp?hl=en-US&gl=US",
       "githubUrl": "https://github.com/ap0calip",
-      "releaseDate": "",
+      "releaseDate": "June 27, 2019",
       "screenshots": [
         ""
       ]
@@ -81,18 +78,14 @@
       "id": 4,
       "title": "The Numbers",
       "category": "Webpage",
-      "description": "",
-      "longDescription": "",
+      "description": "This application is created so that children can practice addition, subtraction, multiplication and division in a more interesting way.",
+      "longDescription": "The Numbers is a minimalist, number-focused educational game created by GitHub user ap0calip. Designed as a creative learning tool, it helps users practice basic math skills through interactive play. With a strong commitment to user privacy, it collects no personal data, making it a safe and focused environment for learners of all ages.",
       "technologies": ["PWA", "Visual Studio Code", "HTML", "CSS", "JavaScript"],
       "features": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Practice Addittion in level 10, 12, 20 and 100.",
+		"Practice Subtraction in level 10, 12, 20 and 100.",
+		"Practice Multiplication in level 10 and 12."
+		"Practice Division in level 10 and 12."
       ],
       "appUrl": "https://ap0calip.github.io/the_numbers.html",
       "githubUrl": "https://github.com/ap0calip",
@@ -105,22 +98,18 @@
       "id": 5,
       "title": "The Numbers",
       "category": "Microsoft Store",
-      "description": "",
-      "longDescription": "",
+      "description": "This application is created so that children can practice addition, subtraction, multiplication and division in a more interesting way.",
+      "longDescription": "The Numbers is a minimalist, number-focused educational game created by GitHub user ap0calip. Designed as a creative learning tool, it helps users practice basic math skills through interactive play. With a strong commitment to user privacy, it collects no personal data, making it a safe and focused environment for learners of all ages.",
       "technologies": ["PWA", "Visual Studio Code", "HTML", "CSS", "JavaScript"],
       "features": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Practice Addittion in level 10, 12, 20 and 100.",
+		"Practice Subtraction in level 10, 12, 20 and 100.",
+		"Practice Multiplication in level 10 and 12."
+		"Practice Division in level 10 and 12."
       ],
       "appUrl": "https://apps.microsoft.com/detail/9nkqcn98twvj?hl=en-US&gl=US",
       "githubUrl": "https://github.com/ap0calip",
-      "releaseDate": "",
+      "releaseDate": "July 30, 2025",
       "screenshots": [
         ""
       ]
@@ -129,18 +118,14 @@
       "id": 6,
       "title": "The Numbers",
       "category": "Play Store",
-      "description": "",
-      "longDescription": "",
+      "description": "This application is created so that children can practice addition, subtraction, multiplication and division in a more interesting way.",
+      "longDescription": "The Numbers is a minimalist, number-focused educational game created by GitHub user ap0calip. Designed as a creative learning tool, it helps users practice basic math skills through interactive play. With a strong commitment to user privacy, it collects no personal data, making it a safe and focused environment for learners of all ages.",
       "technologies": ["PWA", "Visual Studio Code", "HTML", "CSS", "JavaScript"],
       "features": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Practice Addittion in level 10, 12, 20 and 100.",
+		"Practice Subtraction in level 10, 12, 20 and 100.",
+		"Practice Multiplication in level 10 and 12."
+		"Practice Division in level 10 and 12."
       ],
       "appUrl": "https://play.google.com/store/apps/details?id=io.github.ap0calip.twa",
       "githubUrl": "https://github.com/ap0calip",
