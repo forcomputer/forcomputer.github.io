@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Libreta de Dominó Boricua",
-      "category": "Microsoft",
+      "category": "Play Store",
       "description": "¡Olvídate del papel! Anota tu dominó de la forma más rápida y boricua.",
       "longDescription": "Libreta de Dominó Boricua es la aplicación definitiva para contar y registrar partidas de dominó tradicional de forma rápida y sencilla. Diseñada con un estilo moderno inspirado en Puerto Rico, te permite llevar el marcador oficial, gestionar jugadores y guardar el historial completo de tus encuentros para revivir cada victoria con amigos y familiares.",
       "technologies": ["Google AI Studio"],
@@ -13,7 +13,7 @@
         "Gestión Local de Jugadores: Crea, edita y administra los nombres de los participantes para personalizar tus partidas al instante.",
         "Interfaz Temática Boricua: Disfruta de una experiencia visual elegante y fluida con un diseño responsivo basado en los colores tradicionales."
       ],
-      "appUrl": "https://ap0calip.github.io/",
+      "appUrl": "https://play.google.com/store/apps/details?id=com.aistudio.dominoboricua.kxmpzq",
       "githubUrl": "https://github.com/ap0calip",
       "releaseDate": "Pending",
       "screenshots": [
