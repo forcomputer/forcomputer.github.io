@@ -71,7 +71,10 @@
       "githubUrl": "https://github.com/ap0calip",
       "releaseDate": "June 27, 2019",
       "screenshots": [
-        "/image/a.png"
+        "/image/the_numbres_winforms/1.png",
+		"/image/the_numbres_winforms/2.png",
+		"/image/the_numbres_winforms/3.png",
+		"/image/the_numbres_winforms/4.png"
       ]
     },
     {
@@ -91,7 +94,9 @@
       "githubUrl": "https://github.com/ap0calip",
       "releaseDate": "",
       "screenshots": [
-        "/image/b2.png"
+        "/image/the_numbres_web/1.png",
+		"/image/the_numbres_web/2.png",
+		"/image/the_numbres_web/3.png"
       ]
     },
     {
@@ -111,7 +116,10 @@
       "githubUrl": "https://github.com/ap0calip",
       "releaseDate": "July 30, 2025",
       "screenshots": [
-        ""
+        "/image/the_numbres_pwa_microsoft/1.png",
+		"/image/the_numbres_pwa_microsoft/2.png",
+		"/image/the_numbres_pwa_microsoft/3.png"
+		
       ]
     },
     {
@@ -131,7 +139,14 @@
       "githubUrl": "https://github.com/ap0calip",
       "releaseDate": "",
       "screenshots": [
-        ""
+        "/image/the_numbres_pwa_play/1.jpg",
+		"/image/the_numbres_pwa_play/2.jpg",
+		"/image/the_numbres_pwa_play/3.jpg",
+		"/image/the_numbres_pwa_play/4.jpg",
+		"/image/the_numbres_pwa_play/5.jpg",
+		"/image/the_numbres_pwa_play/6.jpg",
+		"/image/the_numbres_pwa_play/7.jpg",
+		"/image/the_numbres_pwa_play/8.jpg"
       ]
     }
   ]
