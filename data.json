@@ -35,7 +35,7 @@
       "longDescription": "",
       "technologies": ["Google AI Studio"],
       "features": [
-        "image/medrem/1024x500.png",
+        "/image/medrem/1024x500.png",
         "/image/medrem/banner_eng.png",
         "/image/medrem/phone1",
         "/image/medrem/phone2",
