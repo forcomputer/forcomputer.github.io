@@ -35,6 +35,12 @@
       "longDescription": "",
       "technologies": ["Google AI Studio"],
       "features": [
+        ""
+      ],
+      "appUrl": "https://ap0calip.github.io/",
+      "githubUrl": "https://github.com/ap0calip",
+      "releaseDate": "",
+      "screenshots": [
         "/image/medrem/1024x500.png",
         "/image/medrem/banner_eng.png",
         "/image/medrem/phone1",
@@ -42,13 +48,9 @@
         "/image/medrem/phone3",
         "/image/medrem/phone4",
         "/image/medrem/phone5",
-        "/image/medrem/phone6"
-      ],
-      "appUrl": "https://ap0calip.github.io/",
-      "githubUrl": "https://github.com/ap0calip",
-      "releaseDate": "",
-      "screenshots": [
-        ""
+        "/image/medrem/phone6",
+		"/image/medrem/phone7",
+		"/image/medrem/phone8"
       ]
     },
     {
