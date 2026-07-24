@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - Libreta de Dominó Boricua</title>
+    <style>
+        :root {
+            --primary: #0CB7F2;
+            --primary-dark: #0284C7;
+            --slate-dark: #0B132B;
+            --slate-light: #1C2541;
+            --background: #F0F9FF;
+            --text-dark: #1E293B;
+            --text-muted: #64748B;
+            --card-bg: #FFFFFF;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background: #0B132B;
+                --text-dark: #F1F5F9;
+                --text-muted: #94A3B8;
+                --card-bg: #1C2541;
+            }
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--background);
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--primary);
+        }
+
+        .logo-symbol {
+            font-size: 48px;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin: 0 0 10px 0;
+            color: var(--primary-dark);
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            margin: 0;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--primary-dark);
+            margin-top: 0;
+            margin-bottom: 15px;
+            border-left: 4px solid var(--primary);
+            padding-left: 12px;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 16px;
+            text-align: justify;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 50px;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            padding-top: 20px;
+        }
+
+        .highlight-box {
+            background-color: rgba(12, 183, 242, 0.08);
+            border-left: 4px solid var(--primary);
+            padding: 15px;
+            border-top-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+            margin-bottom: 20px;
+        }
+
+        .highlight-box p:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="logo-symbol">🀽</div>
+            <h1>Política de Privacidad</h1>
+            <p class="subtitle">Aplicación "Libreta de Dominó Boricua"</p>
+        </div>
+
+        <div class="card">
+            <h2>1. Declaración Absoluta de Privacidad</h2>
+            <div class="highlight-box">
+                <p><strong>Privacidad por Diseño (Offline-First):</strong> Nuestra política es sumamente sencilla: creemos que tus juegos, tus estadísticas y los nombres de tus compañeros de juego te pertenecen solo a ti. Esta aplicación funciona en su totalidad de manera local y offline.</p>
+            </div>
+            <p>La aplicación móvil <strong>Libreta de Dominó Boricua</strong> (en adelante, "la Aplicación") ha sido diseñada bajo estrictos principios de soberanía de datos del usuario. Toda la información introducida en la Aplicación se administra de forma exclusiva dentro de tu dispositivo Android.</p>
+        </div>
+
+        <div class="card">
+            <h2>2. Información que Recopilamos</h2>
+            <p><strong>Cero Recopilación de Datos Personales o Sensibles:</strong> NO solicitamos, registramos ni transferimos ningún dato personal identificable a servidores externos. No existe vinculación con cuentas online o redes sociales.</p>
+            <p>Los datos que ingresas dentro del juego comprenden únicamente:</p>
+            <ul>
+                <li>Nombres de pila o alias de los cuatro jugadores del juego actual.</li>
+                <li>Puntuaciones, marcas de mano (Capicú/Chuchazo), y transcurso de rondas.</li>
+                <li>Ajustes de reglas físicas preferidas de dominó.</li>
+            </ul>
+            <p>Toda esta información es almacenada únicamente en tu propio dispositivo móvil.</p>
+        </div>
+
+        <div class="card">
+            <h2>3. Almacenamiento y Seguridad de los Datos</h2>
+            <p>La Aplicación utiliza el motor de base de datos local y seguro <strong>SQLite (Room Framework)</strong> integrado en el sistema operativo Android. Esto asegura que:</p>
+            <ul>
+                <li>Los datos están aislados dentro de la partición de almacenamiento interna asignada de forma exclusiva para la Aplicación sandbox en Android.</li>
+                <li>Ningún tercero no autorizado o sitio web externo puede tener visibilidad directa de los registros históricos del juego.</li>
+                <li>La seguridad cibernética de tus marcadores recae sobre la propia encriptación física del almacenamiento local de tu dispositivo Android.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>4. Conectividad y Permisos del Dispositivo</h2>
+            <p>La Aplicación trabaja en un entorno de red cerrado de ejecución local (offline):</p>
+            <ul>
+                <li>No solicita credenciales de acceso a redes sociales, correos electrónicos ni inicios de sesión remotos.</li>
+                <li>No utiliza servicios de analíticas web de terceros ni comparte datos de telemetría de uso.</li>
+                <li>No requiere ni utiliza permisos de rastreo de ubicación, acceso global al sistema telefónico, ni cámara para su operación básica.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>5. Control de Datos y Desinstalación</h2>
+            <p>Dado que no almacenamos tu información de juego en ningún servidor externo bajo la nube, tú posees el control absoluto de tus datos en todo momento:</p>
+            <ul>
+                <li>Puedes reiniciar las estadísticas o borrar juegos individuales directamente desde la UI de la Aplicación.</li>
+                <li>Al utilizar la función nativa de Android de "Borrar Almacenamiento / Borrar Datos" en Ajustes o al desinstalar completamente la Aplicación, toda tu base de datos histórica de juegos y nombres registrados de jugadores <strong>se eliminará permanentemente de tu dispositivo sin posibilidad de recuperación externa</strong>.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>6. Actualizaciones de esta Política</h2>
+            <p>Es posible que esta política sea actualizada eventualmente para reflejar nuevas funciones locales agregadas a la Aplicación. No obstante, el compromiso absoluto de operar de forma offline y libre de recolección de datos sensibles se mantendrá siempre como piedra angular del proyecto.</p>
+        </div>
+
+        <div class="card">
+            <h2>7. Contacto</h2>
+            <p>Si tienes alguna pregunta sobre el funcionamiento local o la nula recolección de datos por parte de la Aplicación, puedes contactarnos directamente enviando un correo electrónico al <a href="mailto:ap0calip.forcomputer@outlook.com">ap0calip.forcomputer@outlook.com</a>.</p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 forcomputer. Todos los derechos reservados.</p>
+            <p>Actualizado por última vez el: 22 de junio de 2026</p>
+        </div>
+    </div>
+
+</body>
+</html>

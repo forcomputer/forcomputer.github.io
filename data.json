@@ -1,0 +1,188 @@
+{
+  "applications": [
+    {
+      "id": 1,
+      "title": "Libreta de Dominó Boricua",
+      "category": "Play Store",
+      "description": "¡Olvídate del papel! Anota tu dominó de la forma más rápida y boricua.",
+      "longDescription": "Libreta de Dominó Boricua es la aplicación definitiva para contar y registrar partidas de dominó tradicional de forma rápida y sencilla. Diseñada con un estilo moderno inspirado en Puerto Rico, te permite llevar el marcador oficial, gestionar jugadores y guardar el historial completo de tus encuentros para revivir cada victoria con amigos y familiares.",
+      "technologies": [
+        "Google AI Studio"
+      ],
+      "features": [
+        "Anotación de Puntos en Tiempo Real: Lleva un control preciso de cada mano con un marcador dinámico y fácil de usar durante el juego.",
+        "Historial de Partidas Optimizado: Muestra un resumen de los últimos 3 encuentros para mantener la pantalla limpia, con la opción de expandir toda la lista mediante un botón interactivo.",
+        "Gestión Local de Jugadores: Crea, edita y administra los nombres de los participantes para personalizar tus partidas al instante.",
+        "Interfaz Temática Boricua: Disfruta de una experiencia visual elegante y fluida con un diseño responsivo basado en los colores tradicionales."
+      ],
+      "appUrl": "https://play.google.com/store/apps/details?id=com.aistudio.dominoboricua.kxmpzq",
+      "githubUrl": "https://github.com/ap0calip",
+      "releaseDate": "July 22, 2026",
+      "screenshots": [
+        "image/domino/bx.png",
+        "image/domino/b0.png",
+        "image/domino/Espanol/esp (1).jpg",
+        "image/domino/Espanol/esp (2).jpg",
+        "image/domino/Espanol/esp (3).jpg",
+        "image/domino/Espanol/esp (4).jpg",
+        "image/domino/Espanol/esp (5).jpg",
+        "image/domino/Espanol/esp (6).jpg",
+        "image/domino/Espanol/esp (7).jpg",
+        "image/domino/English/eng (1).jpg",
+        "image/domino/English/eng (2).jpg",
+        "image/domino/English/eng (3).jpg",
+        "image/domino/English/eng (4).jpg",
+        "image/domino/English/eng (5).jpg",
+        "image/domino/English/eng (6).jpg",
+        "image/domino/English/eng (7).jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "MedRed: Medication Reminder",
+      "category": "Play Store",
+      "description": "Medication Reminder - family's medicine schedules",
+      "longDescription": "MedRem is a friendly, family-focused medication tracker designed to make managing health routines completely effortless. Whether you are tracking daily vitamins for yourself, managing complex prescriptions for a loved one, or keeping tabs on children's health schedules, MedRem brings everything together in one organized, easy-to-use space. By supporting multiple family profiles under a single roof, the app ensures that everyone's wellness journey is coordinated, visible, and never forgotten.",
+      "technologies": [
+        "Google AI Studio"
+      ],
+      "features": [
+        "Color-Coded Family Profiles: Create distinct, personalized profiles for everyone in your care. Each profile is assigned a unique, vibrant color code that visually groups and organizes schedules, helping you quickly distinguish whose medications are due at any given moment.",
+        "Detailed Medication History Log: Keep an accurate, organized digital diary of past doses. The dedicated history timeline tracks exact timestamps and actions (such as taken or skipped doses) across all profiles, giving you a reliable record to share during doctor visits."
+      ],
+      "appUrl": "https://play.google.com/store/apps/details?id=com.aistudio.medred.kfsqwz",
+      "githubUrl": "https://github.com/ap0calip",
+      "releaseDate": "Pending",
+      "screenshots": [
+        "/image/medrem/1024x500.png",
+        "/image/medrem/banner_eng.png",
+        "/image/medrem/phone1.jpg",
+        "/image/medrem/phone2.jpg",
+        "/image/medrem/phone3.jpg",
+        "/image/medrem/phone4.jpg",
+        "/image/medrem/phone5.jpg",
+        "/image/medrem/phone6.jpg",
+        "/image/medrem/phone7.jpg",
+        "/image/medrem/phone8.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The Numbers forcomputer",
+      "category": "Microsoft Store",
+      "description": "This application is created so that children can practice addition, subtraction, multiplication, and division more interestingly.",
+      "longDescription": "The Numbers is a minimalist, number-focused educational game created by GitHub user ap0calip. Designed as a creative learning tool, it helps users practice basic math skills through interactive play. With a strong commitment to user privacy, it collects no personal data, making it a safe and focused environment for learners of all ages.",
+      "technologies": [
+        "WinForms",
+        "Visual Studio",
+        "Visual Basic .NET"
+      ],
+      "features": [
+        "Practice Addition in level 10, 12, 20 and 100.",
+        "Practice Subtraction in level 10, 12, 20 and 100.",
+        "Practice Multiplication in level 10 and 12.",
+        "Practice Division in level 10 and 12."
+      ],
+      "appUrl": "https://apps.microsoft.com/detail/9nqz63lkldpp?hl=en-US&gl=US",
+      "githubUrl": "https://github.com/ap0calip",
+      "releaseDate": "June 27, 2019",
+      "screenshots": [
+        "/image/the_numbers_winforms/BoxArt.png",
+		    "/image/the_numbers_winforms/1.png",
+        "/image/the_numbers_winforms/2.png",
+        "/image/the_numbers_winforms/3.png",
+        "/image/the_numbers_winforms/4.png"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The Numbers",
+      "category": "Webpage",
+      "description": "This application is created so that children can practice addition, subtraction, multiplication, and division more interestingly.",
+      "longDescription": "The Numbers is a minimalist, number-focused educational game created by GitHub user ap0calip. Designed as a creative learning tool, it helps users practice basic math skills through interactive play. With a strong commitment to user privacy, it collects no personal data, making it a safe and focused environment for learners of all ages.",
+      "technologies": [
+        "PWA",
+        "Visual Studio Code",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "features": [
+        "Practice Addition in level 10, 12, 20 and 100.",
+        "Practice Subtraction in level 10, 12, 20 and 100.",
+        "Practice Multiplication in level 10 and 12.",
+        "Practice Division in level 10 and 12."
+      ],
+      "appUrl": "The_Numbers/the_numbers.html",
+      "githubUrl": "https://github.com/ap0calip",
+      "releaseDate": "2025",
+      "screenshots": [
+        "/image/the_numbers_web/1.png",
+        "/image/the_numbers_web/2.png",
+        "/image/the_numbers_web/3.png"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "The Numbers PWA forcomputer",
+      "category": "Microsoft Store",
+      "description": "This application is created so that children can practice addition, subtraction, multiplication, and division in a more interesting way.",
+      "longDescription": "The Numbers is a minimalist, number-focused educational game created by GitHub user ap0calip. Designed as a creative learning tool, it helps users practice basic math skills through interactive play. With a strong commitment to user privacy, it collects no personal data, making it a safe and focused environment for learners of all ages.",
+      "technologies": [
+        "PWA",
+        "Visual Studio Code",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "features": [
+        "Practice Addition in level 10, 12, 20 and 100.",
+        "Practice Subtraction in level 10, 12, 20 and 100.",
+        "Practice Multiplication in level 10 and 12.",
+        "Practice Division in level 10 and 12."
+      ],
+      "appUrl": "https://apps.microsoft.com/detail/9nkqcn98twvj?hl=en-US&gl=US",
+      "githubUrl": "https://github.com/ap0calip",
+      "releaseDate": "July 30, 2025",
+      "screenshots": [
+        "/image/the_numbers_pwa_microsoft/logo.png",
+		"/image/the_numbers_pwa_microsoft/1.png",
+        "/image/the_numbers_pwa_microsoft/2.png",
+        "/image/the_numbers_pwa_microsoft/3.png"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "The Numbers PWA forcomputer",
+      "category": "Play Store",
+      "description": "This application is created so that children can practice addition, subtraction, multiplication, and division in a more interesting way.",
+      "longDescription": "The Numbers is a minimalist, number-focused educational game created by GitHub user ap0calip. Designed as a creative learning tool, it helps users practice basic math skills through interactive play. With a strong commitment to user privacy, it collects no personal data, making it a safe and focused environment for learners of all ages.",
+      "technologies": [
+        "PWA",
+        "Visual Studio Code",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "features": [
+        "Practice Addition in level 10, 12, 20 and 100.",
+        "Practice Subtraction in level 10, 12, 20 and 100.",
+        "Practice Multiplication in level 10 and 12.",
+        "Practice Division in level 10 and 12."
+      ],
+      "appUrl": "https://play.google.com/store/apps/details?id=io.github.ap0calip.twa",
+      "githubUrl": "https://github.com/ap0calip",
+      "releaseDate": "Octuber 13, 2025",
+      "screenshots": [
+        "/image/the_numbers_pwa_play/1.jpg",
+        "/image/the_numbers_pwa_play/2.jpg",
+        "/image/the_numbers_pwa_play/3.jpg",
+        "/image/the_numbers_pwa_play/4.jpg",
+        "/image/the_numbers_pwa_play/5.jpg",
+        "/image/the_numbers_pwa_play/6.jpg",
+        "/image/the_numbers_pwa_play/7.jpg",
+        "/image/the_numbers_pwa_play/8.jpg"
+      ]
+    }
+  ]
+}
