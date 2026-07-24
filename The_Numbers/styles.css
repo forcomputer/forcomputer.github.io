@@ -7,49 +7,16 @@
   font-weight: bold;
 }
 
-h1 {
-  font-size: 12vw;
-  font-family: "Monotype Corsiva", cursive;
-  text-shadow: 1vw 1vw .1vw #72dc56;
-}
-
-.instruction-title {
-  font-size: 5vw;
-  margin: 2vw;
-  text-align: justify;
-  font-weight: bold;
-  margin-top: 4vw;
-}
-
-.instruction-text,
-li {
-  font-size: 5vw;
-  margin: 2vw;
-  text-align: justify;
-  font-weight: normal;
-}
-
-.footer {
+footer {
   font-size: 5vw;
   margin: 2vw;
   text-align: center;
   font-family: "Monotype Corsiva", cursive;
 }
 
-label,
-select,
-option {
-  margin: 2vw;
-}
-
 img {
   width: 10vw;
   height: 15vw;
-}
-
-.imgStar {
-  width: 10vw;
-  height: auto;
 }
 
 .imgSticker {

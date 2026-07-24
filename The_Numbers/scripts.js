@@ -68,18 +68,6 @@ window.onload = function () {
     }
 }
 
-// Function to decrease font sizes of all elements by 1px
-window.decreaseAllFontSizes = function () {
-    const allElements = document.querySelectorAll('*');
-    allElements.forEach(el => {
-        const style = window.getComputedStyle(el).getPropertyValue('font-size');
-        const currentSize = parseFloat(style);
-        if (!isNaN(currentSize) && currentSize > 1) {
-            el.style.fontSize = (currentSize - 60) + 'px';
-        }
-    });
-}
-
 // Function to check if the device is mobile
 window.isMobile = function () {
     return /Mobi|Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent);
@@ -246,15 +234,6 @@ window.getCookie = function (name) {
     }
 }
 
-// Function to delete all cookies
-window.resetCookies = function () {
-    window.setCookie('stickerFolder', 'BoySticker/', -1);
-    window.setCookie('operator', '+', -1);
-    window.setCookie('level', '10', -1);
-    window.setCookie('starNumber', '0', -1);
-    window.setCookie('stickerNumber', '0', -1);
-}
-
 //-----------------------------------------------------------------
 //   Event handlers for dropdown changes and UI updates
 //-----------------------------------------------------------------
@@ -390,7 +369,7 @@ window.imgClick = function (element) {
             document.getElementById(element).src = "images/" + eval(`${window.firstNumber} ${window.operator} ${window.secondNumber}`) + ".png";
         }
     }
-    const intervalID = setTimeout(imgLeave, 10000, element);
+    setTimeout(imgLeave, 10000, element);
 }
 
 window.imgLeave = function (element) {
